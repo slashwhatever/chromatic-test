@@ -4,5 +4,5 @@
   "autoAcceptChanges": "main",
   "exitOnceUploaded": true,
   "skip": "dependabot/**",
-  "onlyStoryFiles": ["src/components/button/**"]
+  "onlyStoryFiles": ["./src/components/button/**"]
 }
