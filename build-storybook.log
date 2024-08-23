@@ -1,0 +1,43 @@
+
+> sld-ui-lib@1.0.0 build-storybook /Users/james/dev/chromatic-test
+> storybook build "--output-dir" "/var/folders/py/943bbyfs04g2q_v_d54s7r040000gn/T/chromatic--77833-I5P9BCuQoPvh"
+
+@storybook/cli v7.6.20
+
+info => Cleaning outputDir: /var/folders/py/943bbyfs04g2q_v_d54s7r040000gn/T/chromatic--77833-I5P9BCuQoPvh
+info => Loading presets
+info => Building manager..
+info => Manager built (96 ms)
+info => Building preview..
+info => Copying static files: /Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+manager@7.6.20/node_modules/@storybook/manager/static at /var/folders/py/943bbyfs04g2q_v_d54s7r040000gn/T/chromatic--77833-I5P9BCuQoPvh/sb-common-assets
+WARN 🚨 Unable to index ./src/components/button-copy/__docs__/Button.mdx:
+WARN   Error: Invariant failed
+WARN     at invariant (/Users/james/dev/chromatic-test/node_modules/.pnpm/tiny-invariant@1.3.3/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js:10:15)
+WARN     at StoryIndexGenerator.extractDocs (/Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:55:3863)
+WARN     at async /Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:54:2020
+WARN     at async Promise.all (index 0)
+WARN     at async Promise.all (index 0)
+WARN     at async StoryIndexGenerator.updateExtracted (/Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:54:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (/Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:54:2609)
+WARN     at async StoryIndexGenerator.initialize (/Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:54:1580)
+WARN 🚨 Unable to index ./src/components/button-copy/__docs__/Button.mdx:
+WARN   Error: Invariant failed
+WARN     at invariant (/Users/james/dev/chromatic-test/node_modules/.pnpm/tiny-invariant@1.3.3/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js:10:15)
+WARN     at StoryIndexGenerator.extractDocs (/Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:55:3863)
+WARN     at async /Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:54:2020
+WARN     at async Promise.all (index 0)
+WARN     at async Promise.all (index 0)
+WARN     at async StoryIndexGenerator.updateExtracted (/Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:54:1653)
+WARN     at async StoryIndexGenerator.ensureExtracted (/Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:54:2609)
+WARN     at async StoryIndexGenerator.initialize (/Users/james/dev/chromatic-test/node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:54:1580)
+Error: Unable to index ./src/components/button-copy/__docs__/Button.mdx
+    at StoryIndexGenerator.getIndex (./node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:60:3746)
+    at async extractStoriesJson (./node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:51:4623)
+    at async Promise.all (index 3)
+    at async buildStaticStandalone (./node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:61:2295)
+    at async withTelemetry (./node_modules/.pnpm/@storybook+core-server@7.6.20/node_modules/@storybook/core-server/dist/index.js:65:3948)
+    at async build (./node_modules/.pnpm/@storybook+cli@7.6.20/node_modules/@storybook/cli/dist/generate.js:514:1059)
+    at async Command.<anonymous> (./node_modules/.pnpm/@storybook+cli@7.6.20/node_modules/@storybook/cli/dist/generate.js:530:125)
+[36mvite v4.5.3 [32mbuilding for production...[36m[39m
+transforming...
+ ELIFECYCLE  Command failed with exit code 1.
