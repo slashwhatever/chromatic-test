@@ -11,7 +11,8 @@
     "test:ui": "vitest --ui",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "chromatic": "npx chromatic --project-token=chpt_94ba9079c48a227"
   },
   "type": "module",
   "main": "dist/index.cjs.js",

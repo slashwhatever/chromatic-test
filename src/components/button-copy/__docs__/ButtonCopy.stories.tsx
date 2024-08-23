@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import Example from "./Example";
 
 const meta: Meta<typeof Example> = {
-  title: "Button",
+  title: "ButtonCopy",
   component: Example,
 };
 
@@ -11,7 +11,7 @@ type Story = StoryObj<typeof Example>;
 
 export const Primary: Story = {
   args: {
-    text: "Button",
+    text: "Button Copy",
     primary: true,
     disabled: false,
     size: "small",
@@ -20,7 +20,7 @@ export const Primary: Story = {
 };
 export const Secondary: Story = {
   args: {
-    text: "Button",
+    text: "Button Copy",
     primary: false,
     disabled: false,
     size: "small",
