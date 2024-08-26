@@ -1,14 +1,11 @@
 {
-  "name": "sld-ui-lib",
-  "version": "1.0.0",
+  "name": "chromatic-test",
+  "version": "0.0.1",
   "description": "",
   "scripts": {
     "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
     "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix",
     "build": "tsc && vite build",
-    "test": "vitest run",
-    "test-watch": "vitest",
-    "test:ui": "vitest --ui",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "npm run build",
@@ -21,17 +18,8 @@
   "files": [
     "/dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashish-simform/sld-ui-lib.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ashish-simform/sld-ui-lib/issues"
-  },
-  "homepage": "https://github.com/ashish-simform/sld-ui-lib#readme",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.7.0",
     "@eslint/js": "^9.9.0",
